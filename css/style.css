@@ -91,6 +91,10 @@
         background-color: var(--color-surface);
     }
 
+    .nav-toggle {
+        display: none;
+    }
+
     @media (max-width: 768px) {
         nav {
             justify-content: center;
@@ -105,4 +109,22 @@
             max-width: 100%;
             width: 100%;
         }
+        .nav-toggle {
+        display: block;
+        background: none;
+        border: none;
+        color: var(--color-text);
+        font-size: 1.5rem;
+        cursor: pointer;
     }
+
+    nav a {
+        display: none;
+    }
+
+    nav.nav-open a {
+        display: block;
+    }
+    }
+
+    
