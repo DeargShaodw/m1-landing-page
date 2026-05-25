@@ -126,5 +126,11 @@
         display: block;
     }
     }
+.faq-answer {
+    display: none;
+}
 
+.faq-answer.open {
+    display:block;
+}
     
