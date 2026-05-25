@@ -1,0 +1,10 @@
+:root {
+--color-bg: #ffffff;
+--color-surface: #fafafa;
+--color-primary: #111111;
+--color-accent: #555555;
+--color-text: #111111;
+--color-text-muted: #999999;
+--font-heading: 'Cormorant Garamond', serif;
+--font-body: 'Inter', sans-serif;
+}
