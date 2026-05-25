@@ -63,7 +63,7 @@
         padding: 4rem 2rem;
         display: flex;
         justify-content: center;
-        gap: 2rem
+        gap: 2rem;
 
     }
 
@@ -90,4 +90,19 @@
         text-align: center;
         background-color: var(--color-surface);
     }
-    
+
+    @media (max-width: 768px) {
+        nav {
+            justify-content: center;
+        }
+
+        #services {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .service-card {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
